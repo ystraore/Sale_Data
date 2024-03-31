@@ -1,10 +1,20 @@
-
-Predicting Categories of Flight Delay Among Popular Airlines
+# Predicting Categories of Flight Delay Among Popular Airlines
 
 ### By Yssa Traore
 
+**Table of Contents**
+1. [Introduction and Problem Statement](#introduction-and-problem-statement)
+2. [Categorization of Delays](#categorization-of-delays)
+3. [Objective](#objective)
+4. [Dataset Information](#dataset-information)
+5. [Methodology](#methodology)
+6. [Usage](#usage)
+7. [Tech Stack](#tech-stack)
+8. [License](#license)
+9. [Acknowledgments](#acknowledgments)
+
 ## Introduction and Problem Statement
-In the aviation industry, flight delays are more than just inconveniences; they represent a significant challenge affecting operational efficiency and passenger satisfaction. The goal of this study is to develop a predictive model capable of categorizing flight delays into one of three distinct categories: no delay, moderate delay, and lengthy delay. This classification is not arbitrary but is based on the real-world implications of delay durations on passengers' schedules and the operational logistics of airlines.
+In the aviation industry, flight delays are more than just inconveniences; they represent a significant challenge affecting operational efficiency and passenger satisfaction. The goal of this study is to develop a predictive model capable of categorizing flight delays into one of three distinct categories based on their duration: no delay, moderate delay, and lengthy delay. This classification is not arbitrary but is based on the real-world implications of delay durations on passengers' schedules and the operational logistics of airlines.
 
 ## Categorization of Delays
 The delays are categorized as follows, based on the duration:
@@ -34,12 +44,25 @@ To use this project for predicting flight delay categories, follow these steps:
 2. Install the necessary Python packages: pandas, numpy, matplotlib, seaborn, and scikit-learn.
 3. Run the main analysis notebook to train the model and make predictions. Detailed instructions and comments within the notebook guide through the process.
 
+## Tech Stack
+This project leverages a variety of technologies and tools across data analysis, visualization, and machine learning development:
+- **Programming Language:** Python 3
+- **Data Analysis and Manipulation:** Pandas, NumPy
+- **Data Visualization:** Matplotlib, Seaborn
+- **Machine Learning:** Scikit-learn
+- **Development Environment:** Jupyter Notebooks
+- **Version Control:** Git, GitHub
+- **Dataset Storage and Management:** Local file storage
+
+### Installation and Setup
+Ensure Python 3.x is installed, along with Jupyter Notebooks. Install required Python libraries with pip:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+For version control, ensure Git is installed and clone the repository from GitHub.
+
 ## License
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
 
 ## Acknowledgments
 This project was made possible through the support of peers and mentors in the data science community. Special thanks to the Bureau of Transportation Statistics for providing the datasets that enabled this analysis.
-
----
-
-Remember to replace placeholders (e.g., for installation instructions, exact paths for datasets, and the name/location of the main analysis notebook) with specific information relevant to your project. This will make the README more helpful to users trying to replicate your work or contribute to your project.
