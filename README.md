@@ -46,9 +46,9 @@ To use this project for predicting flight delay categories, follow these steps:
 ## Tech Stack
 This project leverages a variety of technologies and tools across data analysis, visualization, and machine learning development:
 - **Programming Language:** Python 3
-- **Data Analysis and Manipulation:** Pandas, NumPy
+- **Data Analysis and Manipulation:** Pandas, NumPy, Scikit-learn
 - **Data Visualization:** Matplotlib, Seaborn
-- **Machine Learning:** Scikit-learn
+- **Machine Learning:** Decision Trees Classifier
 - **Development Environment:** Jupyter Notebooks
 - **Version Control:** Git, GitHub
 - **Dataset Storage and Management:** Local file storage
