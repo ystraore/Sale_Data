@@ -10,8 +10,7 @@
 5. [Methodology](#methodology)
 6. [Usage](#usage)
 7. [Tech Stack](#tech-stack)
-8. [License](#license)
-9. [Acknowledgments](#acknowledgments)
+
 
 ## Introduction and Problem Statement
 In the aviation industry, flight delays are more than just inconveniences; they represent a significant challenge affecting operational efficiency and passenger satisfaction. The goal of this study is to develop a predictive model capable of categorizing flight delays into one of three distinct categories based on their duration: no delay, moderate delay, and lengthy delay. This classification is not arbitrary but is based on the real-world implications of delay durations on passengers' schedules and the operational logistics of airlines.
@@ -60,9 +59,3 @@ Ensure Python 3.x is installed, along with Jupyter Notebooks. Install required P
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```
 For version control, ensure Git is installed and clone the repository from GitHub.
-
-## License
-This project is open-sourced under the MIT License. See the LICENSE file for more details.
-
-## Acknowledgments
-This project was made possible through the support of peers and mentors in the data science community. Special thanks to the Bureau of Transportation Statistics for providing the datasets that enabled this analysis.
